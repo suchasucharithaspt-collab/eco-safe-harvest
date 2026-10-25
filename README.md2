@@ -46,3 +46,4 @@ steps:
     with:
       name: eco-safe-harvest-apk
       path: apk/eco_safe_harvest.apk
+win
