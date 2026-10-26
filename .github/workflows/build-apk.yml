@@ -1,4 +1,8 @@
-
+      - name: Install frontend dependencies
+        working-directory: src/frontend
+        run: |
+          pnpm config set dangerouslyAllowAllBuilds true
+          pnpm install --no-frozen-lockfile
 name: Build Eco Safe Harvest APK
 
 on:
