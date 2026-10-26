@@ -14,3 +14,4 @@ onlyBuiltDependencies:
 # The client library the lane imports is unaffected.
 ignoredBuiltDependencies:
   - '@dfinity/pic'
+dangerouslyAllowAllBuilds: true
