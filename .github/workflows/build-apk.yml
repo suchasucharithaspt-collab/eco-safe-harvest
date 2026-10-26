@@ -25,7 +25,7 @@ jobs:
 
       - name: Install frontend dependencies
         working-directory: src/frontend
-        run: pnpm install --no-frozen-lockfile
+        run: run: pnpm install --no-frozen-lockfile --config.ignore-scripts=false
 
       - name: Install Capacitor
         working-directory: src/frontend
